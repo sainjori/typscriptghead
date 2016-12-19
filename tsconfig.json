@@ -8,6 +8,6 @@
     "noEmitOnError": true //dont compile on errors
   },
   "files": [
-    "main.ts"
+    "src/main.ts"
   ]
 }
