@@ -9,6 +9,8 @@
     "noEmitOnError": true //dont compile on errors
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "typings/modules",
+    "typings/index.d.ts"
   ]
 }

@@ -1,13 +1,12 @@
 import {SocialNetwork} from './social.networks';
+import * as _ from 'lodash';
 class App implements SocialNetwork{
     title = "Eggheads";
-    constructor(){
-        console.log("Haloo");
-    }
 
     getUsers(){
         return [{name:"john"}];
     }
 
 }
-new App();
+
+console.log(_.isArray(new App().getUsers()));
