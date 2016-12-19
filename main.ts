@@ -1,2 +1,6 @@
 import "./two";
-class Person{}
+class Person{
+
+
+    !§$$%T
+}

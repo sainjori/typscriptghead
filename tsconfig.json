@@ -1,12 +1,13 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es5",
-        "noImplicitAny": false,
-        "sourceMap": false,
-        "outDir": "./dist"
-    },
-    "files": [
-        "main.ts"
-    ]
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "outDir": "./dist",
+    "noEmitOnError": true //dont compile on errors
+  },
+  "files": [
+    "main.ts"
+  ]
 }
