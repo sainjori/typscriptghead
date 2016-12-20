@@ -1,0 +1,46 @@
+tsc
+typings install es6-shim --save --global --source
+typings install --source es6-shim --save
+tsc
+history
+history --help
+history -n 10
+man history
+history -l 10
+history -w historyfile
+ll
+gs
+git rm --cached typings/
+git add .
+git reset HEAD typings/
+git reset HEAD historyfile
+git log
+git commit --amend
+git rm --cached typings/index.d.ts
+git commit --amend
+git add .
+git commit --amend
+al
+am
+src
+am
+git push
+git checkout -b master
+git push
+git push --set-upstream origin master 
+tsc -w
+ac "reflextion and decorator metadata"
+gs
+git push
+typings search react
+typings install react-addons-perf --save --ambient
+typings install react-addons-perf --save --global
+typings install --source react-addons-perf --save --global
+typings install react-addons-perf --source --save --global
+typings install react-addons-perf --source="dt" --save --global
+history -w
+history
+history --help
+history -w
+ll
+history -w historyfile
