@@ -1,15 +1,15 @@
 
-const person = {name: "john"};
-
-
 function addAge(age){
-    return function (person) {
-        return {
-            age, //es6 key an value same name.
-            name: person.name
+    return function (targetClass) {
+        return class {
+            name = new targetClass().name;
+            age = age;
         }
+
     }
 }
-
-const newPerson = addAge(30)(person);
-console.log(newPerson);
+@addAge(20)
+class Person{
+    name = "john";
+}
+console.log(new Person());
