@@ -15,10 +15,14 @@
             "dist":{
                 "defaultExtension":"js",
                 "main": "main"
+            },
+            "rxjs":{
+                "defaultExtension":"js"
             }
         },
         map:{
-            "lodash": "https://npmcdn.com/lodash@4.11.1"
+            "lodash": "https://npmcdn.com/lodash@4.11.1",
+            "rxjs":"node_modules/rxjs"
         }
     })
     System.import("dist");
