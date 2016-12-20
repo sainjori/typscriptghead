@@ -15,10 +15,14 @@
             "dist":{
                 "defaultExtension":"js",
                 "main": "main"
+            },
+            "rxjs":{
+                "defaultExtension":"js" // if this is missing the browser will not add the extension trying to get the file
             }
         },
         map:{
-            "lodash": "https://npmcdn.com/lodash@4.11.1"
+            "lodash": "https://npmcdn.com/lodash@4.11.1", // map lodash from where it can grab it from
+            "rxjs":"node_modules/rxjs"
         }
     })
     System.import("dist");
