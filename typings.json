@@ -3,6 +3,7 @@
     "lodash": "registry:npm/lodash#4.0.0+20161015015725"
   },
   "globalDependencies": {
-    "es6-shim": "registry:dt/es6-shim#0.31.2+20160726072212"
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160726072212",
+    "react-addons-perf": "registry:dt/react-addons-perf#15.1.0+20160619031933"
   }
 }
