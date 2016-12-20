@@ -1,15 +1,13 @@
 
-function addAge(age){
+function example(){
     return function (targetClass) {
-        return class {
-            name = new targetClass().name;
-            age = age;
-        }
-
+/*            Reflect.getMetadata('design:paramtypes', targetClass)*/
+            return targetClass;
     }
 }
-@addAge(20)
+@example()
 class Person{
-    name = "john";
 }
-console.log(new Person());
+console.log(
+    new Person()
+);
