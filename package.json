@@ -20,5 +20,6 @@
     "postinstall": "typings install"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "typings": "./dist/index.d.ts"
 }
